@@ -19,7 +19,7 @@ To use the Flight Booker agent:
 3. Test the agent using the Dialogflow simulator or integrate it into your preferred platform.
 
 ### Screenshots:
-![Flight Booker Agent](flight_booker.JPG)
+![Flight Booker Agent](flight_booker/flight_booker.JPG)
 
 
 ## Contributing:

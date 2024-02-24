@@ -1,0 +1,49 @@
+{
+  "name": "20e34a19-638d-4a31-98f2-d4c7c3b10916",
+  "displayName": "Confirm trip",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "This is to confirm that $session.params.passenger_name will fly\r\nFrom: $session.params.departure_city\r\nTo: $session.params.destination_city\r\nLeaving on: $session.params.departure_date\r\nReturning on: $session.params.return_date\r\n\r\nIs this correct?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Great, your flight is booked!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "29213296-f6de-4b43-92b4-955d6501726f"
+  }, {
+    "intent": "confirmation.no",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "departure_city",
+        "value": null
+      }, {
+        "parameter": "destination_city",
+        "value": null
+      }, {
+        "parameter": "departure_date",
+        "value": null
+      }, {
+        "parameter": "return_date",
+        "value": null
+      }, {
+        "parameter": "passenger_name",
+        "value": null
+      } ]
+    },
+    "targetPage": "Ticket information",
+    "name": "f59fff61-bc92-4078-b013-ab4022d19d75"
+  } ]
+}

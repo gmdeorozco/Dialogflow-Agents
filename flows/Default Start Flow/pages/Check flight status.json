@@ -1,0 +1,29 @@
+{
+  "name": "2308e100-5d0e-4214-b885-539d20d222e0",
+  "displayName": "Check flight status",
+  "form": {
+    "parameters": [ {
+      "displayName": "pnr_num",
+      "required": true,
+      "entityType": "@PNR_Number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is your flight booking reference please?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirm flight status",
+    "name": "c6a33689-ca0a-4fb3-a5a6-7de5426b2c65"
+  } ]
+}

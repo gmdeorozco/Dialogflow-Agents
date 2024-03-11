@@ -1,5 +1,5 @@
 {
-  "name": "10cd701d-e46c-4aef-b0b0-e5f9acd80b1e",
+  "name": "567a55ac-36be-4a48-bbb7-fb0b6291c6fe",
   "displayName": "Ticket information",
   "form": {
     "parameters": [ {
@@ -10,21 +10,7 @@
         "initialPromptFulfillment": {
           "messages": [ {
             "text": {
-              "text": [ "What is the city of departure?" ]
-            },
-            "languageCode": "en"
-          } ]
-        }
-      }
-    }, {
-      "displayName": "destination_city",
-      "required": true,
-      "entityType": "@sys.geo-city",
-      "fillBehavior": {
-        "initialPromptFulfillment": {
-          "messages": [ {
-            "text": {
-              "text": [ "What is your destination city?" ]
+              "text": [ "What city would you like the flight to depart from?" ]
             },
             "languageCode": "en"
           } ]
@@ -39,6 +25,20 @@
           "messages": [ {
             "text": {
               "text": [ "What is the month and day of the departure?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "destination_city",
+      "required": true,
+      "entityType": "@sys.geo-city",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is your destination city?" ]
             },
             "languageCode": "en"
           } ]
@@ -79,12 +79,12 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Thank you for that information. Let me check on the availability of your ticket" ]
+          "text": [ "Thank you for that information. Let me check on the availability of your ticket." ]
         },
         "languageCode": "en"
       } ]
     },
     "targetPage": "Confirm trip",
-    "name": "7c09f1e3-c95e-4da4-952f-42d3bd594838"
+    "name": "6af57691-6bb9-4a35-82b4-553b3dce7501"
   } ]
 }

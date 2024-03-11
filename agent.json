@@ -2,7 +2,7 @@
   "defaultLanguageCode": "en",
   "timeZone": "America/Los_Angeles",
   "enableLogging": true,
-  "projectNumber": 176191064581,
+  "projectNumber": 102668931834,
   "speechToTextSettings": {
   
   },
@@ -27,18 +27,6 @@
     }
   },
   "speakerIdSettings": {
-  
-  },
-  "textToSpeechSettings": {
-  
-  },
-  "duplexSettings": {
-  
-  },
-  "answerFeedbackSettings": {
-  
-  },
-  "webClientSettings": {
   
   }
 }

@@ -12,14 +12,21 @@
         "languageCode": "en"
       } ]
     },
-    "name": "5972e1ef-eb1d-4beb-a327-1912b88c4d6a"
+    "name": "640f030a-ad4e-4506-a4c5-2dad0f704a81"
   }, {
     "intent": "main.book_a_flight",
     "triggerFulfillment": {
     
     },
     "targetPage": "Ticket information",
-    "name": "0dd2fa2f-b9af-4f98-a136-da9a5586e4c7"
+    "name": "3c7673ed-ec6c-40a4-a3e6-1f1a379ff7ff"
+  }, {
+    "intent": "main.flight_status",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Check flight status",
+    "name": "6655032c-d666-4c01-8844-ad8711bd1432"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -31,7 +38,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "3b042ba7-c063-499b-b9ec-68d1b6f04e3a"
+    "name": "bb9527cb-6652-4c5f-88d7-6f7e97b24161"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -42,10 +49,10 @@
         "languageCode": "en"
       } ]
     },
-    "name": "00192def-7271-458c-aa69-8ffa6887d652"
+    "name": "3f89c740-c8cc-4774-8f0b-5afe274b14d3"
   } ],
   "nluSettings": {
-    "modelType": "MODEL_TYPE_ADVANCED",
+    "modelType": "MODEL_TYPE_STANDARD",
     "classificationThreshold": 0.30000001
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "20e34a19-638d-4a31-98f2-d4c7c3b10916",
+  "name": "3fd57da0-a9b7-4e08-a830-ae18d9fe7b2f",
   "displayName": "Confirm trip",
   "form": {
   
@@ -7,7 +7,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "This is to confirm that $session.params.passenger_name will fly\r\nFrom: $session.params.departure_city\r\nTo: $session.params.destination_city\r\nLeaving on: $session.params.departure_date\r\nReturning on: $session.params.return_date\r\n\r\nIs this correct?" ]
+        "text": [ "This is to confirm that $session.params.passenger_name will fly \nFrom: $session.params.departure_city\nTo: $session.params.destination_city\nLeaving on: $session.params.departure_date\nReturning on: $session.params.return_date\nIs this correct?" ]
       },
       "languageCode": "en"
     } ]
@@ -22,7 +22,8 @@
         "languageCode": "en"
       } ]
     },
-    "name": "29213296-f6de-4b43-92b4-955d6501726f"
+    "targetPage": "Anything else?",
+    "name": "20db0cab-1c03-4cca-9902-5e86ecfd3ac5"
   }, {
     "intent": "confirmation.no",
     "triggerFulfillment": {
@@ -30,7 +31,7 @@
         "parameter": "departure_city",
         "value": null
       }, {
-        "parameter": "destination_city",
+        "parameter": "destiniation_city",
         "value": null
       }, {
         "parameter": "departure_date",
@@ -44,6 +45,6 @@
       } ]
     },
     "targetPage": "Ticket information",
-    "name": "f59fff61-bc92-4078-b013-ab4022d19d75"
+    "name": "76e4e3e6-e21a-400b-ba87-1248590d42b5"
   } ]
 }
